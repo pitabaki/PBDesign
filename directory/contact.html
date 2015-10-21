@@ -1,0 +1,249 @@
+
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+    <meta charset="utf-8">
+    
+    <title>Contact</title>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="keywords" content="">
+
+    <!-- Le styles -->
+    <link href='http://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400,300,600' rel='stylesheet' type='text/css'>
+    <link href="../css/bootstrap.css" rel="stylesheet">
+    <link href="../css/bootstrap-responsive.css" rel="stylesheet">
+    <link href="../css/style.css" rel="stylesheet" type="text/css">
+    <link href="../img/favicon.png"rel="icon" type="image/ico">
+    <link href="http://www.plus2net.com/php_tutorial/php_calendar.php" rel="canonical">
+
+    <script src="../js/gen_validatorv31.js"></script>
+</head>
+<body>
+   
+<div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="brand" href="index.html">Peter Berki</a>
+          <div class="nav-collapse collapse">
+            <ul class="nav pull-right">
+              <li><a href="../index.html">Portfolio</a></li>
+              <!-- .navbar-inverse .nav .active > a, .navbar-inverse .nav .active > a:focus = changes STATIC state    .navbar .nav > li > a = adjusts height-->
+              <li><a href="resume.html">Résumé</a></li>
+              <li class="active"><a href="contact.html">Contact</a></li>
+              <li><a href="https://twitter.com/PeterBerki"><img src="../img/tweet.gif" alt="Twitter"></a></li>
+              <li><a href="https://www.facebook.com/peter.berki.94"><img src="../img/facebook.gif" alt="Facebook"></a></li>
+              <li><a href="https://vimeo.com/user23733555"><img src="../img/vimeo.gif" alt="Vimeo"></a></li>
+              <li><a href="https://www.linkedin.com/pub/peter-berki/1a/83b/8a5"><img src="../img/linkedin.gif" alt="LinkedIn"></a></li>
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div>
+      </div>
+</div>
+<div class="hero-unit">
+          <!--<h1>Heading</h1>
+          <p>Tagline</p>
+          <p>
+
+          </p>-->
+          <!--<img src="img/herounit1.jpg" alt"test">-->
+       <div id="myCarousel" class="carousel slide">
+             <ol class="carousel-indicators">
+               <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+               <li data-target="#myCarousel" data-slide-to="1"></li>
+               <li data-target="#myCarousel" data-slide-to="2"></li>
+             </ol>
+             <!-- Carousel items -->
+          <div class="carousel-inner">
+                <div class="active item">
+                  <div class="item01">
+                    <h1>Typography</h1>
+                    <p>Type in the physical and digital world.</p>
+                    <h3><a href="#print">Click for More Information</a></h3>
+                    <img src="../img/herounit/herounitPrint.jpg" alt="Print">
+                  </div>
+                </div>
+                <div class="item"> 
+                  <div class="item02">
+                    <h1>Collaboration</h1>
+                    <p>Working in Collaboration to Find Solutions</p>
+                    <h3><a href="#web">Click for More Information</a></h3>
+                    <img src="../img/herounit/herounitCollab.jpg" alt="Collaboration">
+                  </div>
+                </div>
+                <div class="item"> 
+                  <div class="item02">
+                    <h1>Iconography</h1>
+                    <p>Conveying a message by way of using symbols.</p>
+                    <h3><a href="#web">Click for More Information</a></h3>
+                    <img src="../img/herounit/herounitIcons.jpg" alt="Icons">
+                  </div>
+                </div>
+
+                <div class="item"> 
+                  <div class="item03">
+                    <h1>Mobile UI</h1>
+                    <div class="backTransparency3"></div>
+                    <p>Creating an experience that fits in the palm of your hand.</p>
+                    <h3><a href="#web">Click for More Information</a></h3>
+                    <img src="../img/herounit/herounitApps.jpg" alt="test">
+                  </div>
+                </div>
+                <div class="item"> 
+                  <div class="item04">
+                    <h1>Temporal Design</h1>
+                    <div class="backTransparency3"></div>
+                    <p>Telling a story using temporal conditions.</p>
+                    <h3><a href="#video">Click for More Information</a></h3>
+                    <img src="../img/herounit/herounitMotion.jpg" alt="test">
+                  </div>
+                </div>
+             </div>
+             <!-- Carousel nav -->
+             <a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
+             <a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
+      </div>
+</div>
+
+  <div id="contactContainer">
+    <div id="contactContent">
+      <div class="contactsheet" id="contact"><h1>Contact Me</h1></div>
+      <div class="contactsheet" id="send"><h2>Send me an email</h2></div>
+      <div id="formclass">
+        <form action="form-to-email.php" method="post" name="myemailform">
+
+          <p>
+            <label for="name">Enter Full-Name:</label><br>
+            <input type="text" name="name">
+          </p>
+          <p>
+            <label for="email">Enter Email Address:</label><br>
+            <input type="text" name="email">
+          </p>
+          <p>
+            <label for="message">Enter Message:</label> <br>
+            <textarea name="message" rows="10" cols="100"></textarea>
+          </p>
+
+          <div id="submitButton">
+          <input type="submit" name="submit" value="submit">
+          </div>
+
+        </form>
+
+      </div>
+    </div>
+
+<!--Fix later!!!!!!!!!!!!!!!
+
+ <table border='1'  bordercolor='#FFFF00' cellspacing='0' cellpadding='0' align=center>
+    <tr><td>
+       <table cellspacing='0' cellpadding='0' align=center width='100' border='1'>
+            <tr><td  align=center bgcolor='#ffff00'><font size='3' face='Tahoma'> <a href='html_calendar.php?prm=07&chm=-1' rel="nofollow"><</a></font>
+                </td><td colspan=5 align=center bgcolor='#ffff00'><font size='3' face='Tahoma'>Jul 2014 </font> </td><td  align=center bgcolor='#ffff00'><font size='3' face='Tahoma'> <a href='html_calendar.php?prm=07&chm=1' rel="nofollow">></a>  </font></td></tr><tr><td><font size='3' face='Tahoma'><b>Sun</b></font></td><td><font size='3' face='Tahoma'><b>Mon</b></font></td><td><font size='3' face='Tahoma'><b>Tue</b></font></td><td><font size='3' face='Tahoma'><b>Wed</b></font></td><td><font size='3' face='Tahoma'><b>Thu</b></font></td><td><font size='3' face='Tahoma'><b>Fri</b></font></td><td><font size='3' face='Tahoma'><b>Sat</b></font></td></tr><tr><td> </td><td> </td><td valign=top><font size='2' face='Tahoma'>1  
+<br>
+ </font></td><td valign=top><font size='2' face='Tahoma'>2  
+<br>
+ </font></td><td valign=top><font size='2' face='Tahoma'>3  
+<br>
+ </font></td><td valign=top><font size='2' face='Tahoma'>4  
+<br>
+ </font></td><td valign=top><font size='2' face='Tahoma'>5  
+<br>
+ </font></td></tr><tr><td valign=top><font size='2' face='Tahoma'>6  
+<br>
+ </font></td><td valign=top><font size='2' face='Tahoma'>7  
+<br>
+ </font></td><td valign=top><font size='2' face='Tahoma'>8  
+<br>
+ </font></td><td valign=top><font size='2' face='Tahoma'>9  
+<br>
+ </font></td><td valign=top><font size='2' face='Tahoma'>10  
+<br>
+ </font></td><td valign=top><font size='2' face='Tahoma'>11  
+<br>
+ </font></td><td valign=top><font size='2' face='Tahoma'>12  
+<br>
+ </font></td></tr><tr><td valign=top><font size='2' face='Tahoma'>13  
+<br>
+ </font></td><td valign=top><font size='2' face='Tahoma'>14  
+<br>
+ </font></td><td valign=top><font size='2' face='Tahoma'>15  
+<br>
+ </font></td><td valign=top><font size='2' face='Tahoma'>16  
+<br>
+ </font></td><td valign=top><font size='2' face='Tahoma'>17  
+<br>
+ </font></td><td valign=top><font size='2' face='Tahoma'>18  
+<br>
+ </font></td><td valign=top><font size='2' face='Tahoma'>19  
+<br>
+ </font></td></tr><tr><td valign=top><font size='2' face='Tahoma'>20  
+<br>
+ </font></td><td valign=top><font size='2' face='Tahoma'>21  
+<br>
+ </font></td><td valign=top><font size='2' face='Tahoma'>22  
+<br>
+ </font></td><td valign=top><font size='2' face='Tahoma'>23  
+<br>
+ </font></td><td valign=top><font size='2' face='Tahoma'>24  
+<br>
+ </font></td><td valign=top><font size='2' face='Tahoma'>25  
+<br>
+ </font></td><td valign=top><font size='2' face='Tahoma'>26  
+<br>
+ </font></td></tr><tr><td valign=top><font size='2' face='Tahoma'>27  
+<br>
+ </font></td><td valign=top><font size='2' face='Tahoma'>28  
+<br>
+ </font></td><td valign=top><font size='2' face='Tahoma'>29  
+<br>
+ </font></td><td valign=top><font size='2' face='Tahoma'>30  
+<br>
+ </font></td><td valign=top><font size='2' face='Tahoma'>31  
+<br>
+ </font></td></tr></table></td></tr></table> -->
+
+  </div> <!-- end container, dayo-->
+
+<div class="footer">
+  <p>&copy;2015 peterberkidesign.com &mdash; All rights reserved &mdash; Peter Berki</p>
+</div>
+
+
+
+
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <!-- Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if necessary -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="../js/jquery-1.9.1.min.js"><\/script>')</script>
+    <!-- Bootstrap jQuery plugins compiled and minified -->
+    <script src="../js/bootstrap.min.js"></script>
+    <script>
+      $(document).ready(function(){
+        $('.carousel').carousel({
+          interval: 3000
+        });
+      });
+    </script>
+    <script language="JavaScript">
+      // Code for validating the form
+      // Visit http://www.javascript-coder.com/html-form/javascript-form-validation.phtml
+      // for details
+      var frmvalidator  = new Validator("myemailform");
+      frmvalidator.addValidation("name","req","Please provide your name"); 
+      frmvalidator.addValidation("email","req","Please provide your email"); 
+      frmvalidator.addValidation("email","email","Please enter a valid email address"); 
+    </script>
+  </body>
+</html>

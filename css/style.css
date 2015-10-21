@@ -1,0 +1,1496 @@
+/* Add additional stylesheets below
+-------------------------------------------------- */
+a:hover{
+	text-decoration: none;
+}
+.content{
+	margin-top: 20px;
+}
+.aboutcontent{
+	margin-top: 100px;
+}
+p,
+a,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+	font-family: 'Oxygen', sans-serif;
+}
+
+
+h1{
+	font-size: 36pt;
+	z-index: 1200;
+	color: #fff;
+}
+a {
+	color:#C449A1;
+	font-size: 11pt;
+}
+
+.pull-right img{
+	height: 16px;
+}
+
+.bottombar{
+	position: fixed;
+	margin: 40px 0px 0px 0px;
+	width: 100%;
+	text-align: center;
+	background-color: #333;
+	z-index: 200;
+	
+
+}
+.bottombar li{
+	padding-left: 200px;
+	color: #000;
+	
+
+}
+.item01 img{
+	margin: 0px 0px 0px 0px;
+	position: relative;
+	z-index: -1;
+}
+
+.item01{
+	margin-top:0px;
+}
+
+.item01 h1{
+	font-size: 48pt;
+	position: absolute;
+	float: left;
+	padding: 10px;
+	margin: 170px 0px 0px 100px;
+	z-index: 110;	
+	text-transform: uppercase;
+}
+
+.item01 p{
+	font-size: 14pt;
+	line-height: 24pt;
+	position: absolute;
+	float: left;
+	padding:10px;
+	margin: 250px 0px 0px 100px;
+	width: 350px;
+	z-index: 99;
+}
+
+.item01 h3 a{
+	opacity: 0;
+	font-style:italic;
+	position: absolute;
+	float; left;	
+	font-size: 11pt;
+	padding: 10px;
+	margin: 290px 0px 0px 100px;
+	color: #fff;
+	z-index: 98;
+}
+.item01 h3 a:hover{
+	color: #C449A1;
+}
+
+.item02{
+	margin-top:0px;
+}
+
+.item02 img{
+	margin: 0px 0px 0px 0px;
+	position: relative;
+	z-index: -1;
+}
+.item02 h1{
+	font-size: 48pt;
+	position: absolute;
+	float: left;
+	padding: 20px;
+	margin: 170px 0px 0px 100px;
+	z-index: 110;	
+	text-transform: uppercase;
+	background-color:#222;
+}
+
+.item02 p{
+	font-size: 14pt;
+	line-height: 18pt;
+	position: absolute;
+	float: left;
+	padding:20px;
+	margin: 250px 0px 0px 100px;
+	width: 400px;
+	z-index: 99;
+	background-color:#222;
+}
+
+.item02 h3 a{
+	opacity: 0;
+	font-style:italic;
+	position: absolute;
+	float; left;	
+	font-size: 11pt;
+	padding: 10px;
+	margin: 290px 0px 0px 100px;
+	color: #fff;
+	z-index: 98;
+}
+.item02 h3 a:hover{
+	opacity: 0;
+	color: #C449A1;
+}
+
+.item05{
+	margin-top:0px;
+}
+
+.item05 img{
+	margin: 0px 0px 0px 0px;
+	position: relative;
+	z-index: -1;
+}
+.item05 h1{
+	font-size: 48pt;
+	position: absolute;
+	float: left;
+	padding: 20px;
+	margin: 170px 0px 0px 100px;
+	z-index: 110;	
+	text-transform: uppercase;
+	color: #fff;
+	background-color: #222;
+}
+
+.item05 p a{
+	font-family: 'Oxygen', sans-serif;
+	font-size: 20pt;
+	line-height: 18pt;
+	font-weight: bold;
+	position: absolute;
+	float: left;
+	padding:10px 40px 10px 40px;
+	margin: 135px 0px 0px 120px;
+	width: inherit;
+	z-index: 120;
+	color: #222;
+	background-color: #f2d820;
+	transition: .5s;
+}
+
+.item05 p a:hover{
+	background-color: #f29720;
+}
+.item05 h3 a{
+	opacity: 0;
+	font-style:italic;
+	position: absolute;
+	float; left;	
+	font-size: 11pt;
+	padding: 10px;
+	margin: 290px 0px 0px 100px;
+	color: #fff;
+	z-index: 98;
+}
+.item05 h3 a:hover{
+	opacity: 0;
+	color: #C449A1;
+}
+
+.item03{
+	margin-top:0px;
+}
+
+.item03 img{
+	margin: 0px 0px 0px 0px;
+	position: relative;
+	z-index: -1;
+}
+
+.item03 h1{
+	font-size: 48pt;
+	position: absolute;
+	float: left;
+	padding: 20px;
+	margin: 170px 0px 0px 100px;
+	z-index: 110;	
+	text-transform: uppercase;
+	background-color:#222;
+}
+
+
+.item03 p{
+	font-size: 14pt;
+	line-height: 18pt;
+	position: absolute;
+	float: left;
+	padding:20px;
+	margin: 250px 0px 0px 100px;
+	width: inherit;
+	z-index: 99;
+	background-color:#222;
+}
+
+.item03 h3 a{
+	opacity: 0;
+	font-style:italic;
+	position: absolute;
+	float; left;	
+	font-size: 11pt;
+	padding: 10px;
+	margin: 290px 0px 0px 100px;
+	color: #fff;
+	z-index: 98;
+}
+.item03 h3 a:hover{
+	opacity: 0;
+	color: #fff;
+	background-color: #C449A1;
+}
+
+.item04{
+	margin-top:0px;
+}
+
+.item04 img{
+	margin: 0px 0px 0px 0px;
+	position: relative;
+	z-index: -1;
+}
+
+.item04 h1{
+	font-size: 48pt;
+	position: absolute;
+	float: left;
+	padding: 20px;
+	margin: 170px 0px 0px 100px;
+	z-index: 110;	
+	text-transform: uppercase;
+	background-color:#222;
+}
+
+
+.item04 p{
+	font-size: 14pt;
+	line-height: 18pt;
+	position: absolute;
+	float: left;
+	padding:20px;
+	margin: 250px 0px 0px 100px;
+	width: 360px;
+	z-index: 99;
+	background-color:#222;
+}
+
+.item04 h3 a{
+	opacity: 0;
+	font-style:italic;
+	position: absolute;
+	float; left;	
+	font-size: 11pt;
+	padding: 10px;
+	margin: 290px 0px 0px 100px;
+	color: #fff;
+	z-index: 98;
+}
+
+.item04 h3 a:hover{
+	opacity: 0;
+	color: #fff;
+	background-color: #C449A1;
+}
+.carousel{
+	margin-bottom: 0px;
+}
+#contentFilter{
+	display: block;
+	position: relative;
+	margin: 0 auto;
+	width: 100%;
+	padding: 20px 10px 20px 10px;
+	margin-bottom: 20px;
+	background-color: #d3d1c5;
+}
+#contentFilter ul{
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+}
+#contentFilter li{
+	display: inline;
+	padding: 4%;
+}
+#contentFilter a{
+	color: #222;
+}
+#contentFilter a:hover{
+	color: #999;
+}
+.modal {
+	margin:0 auto;
+	width: 80%;
+	margin-left: 0px;
+}
+
+.myModalLabel{
+	padding: 1% 0 1% 2%;
+	font-weight: lighter;
+}
+.tabstyle {
+	padding-top: 60px;
+	padding-left: 60px;
+	margin-bottom: 30px;
+	height: 300px;
+}
+
+.tabstyle h1 {
+	text-align: center;
+	color: #333;
+}
+
+#new{
+	margin: 0 auto;
+	padding: 0;
+	color: #222;
+	text-align: center;
+	background-color: #f2d820;
+}
+#newProject{
+	margin: 0 auto;
+	padding: 0;
+	position: relative;
+	color: #222;
+	text-align: center;
+	background-color: #f2d820;
+	z-index: 10000000;
+}
+
+.thumbnail img{
+	width: 100%;
+}
+
+.thumbnail{
+	margin: 0px 0px 10px 0px;
+	padding: 20px;
+	background-color: #ddd;
+	transition: background-color 1.5s ease;
+}
+
+.thumbnail:hover{
+	margin: 0px 0px 10px 0px;
+	padding: 20px;
+	background-color: #aaa;
+}
+
+.thumbnail h3{
+	font-family: 'Oxygen', sans-serif;
+	font-size: 16pt;
+	font-weight: 300;
+	padding: 10px 10px 10px 10px;
+	text-align: center;
+	margin-top: -2px;
+	margin-bottom: 10px;
+	color: #fff;
+	background-color: #333;
+	transform: rotate(0deg);
+}
+#holidayMicro a h2{
+	font-size: 18pt;
+	color: #222;
+	background-color: #f2d820;
+	transition: 1s;
+}
+#holidayMicro a h2:hover{
+	background-color: #f29720;
+}
+.thumbnail p{
+	padding-left: 5px;
+	padding-right: 5px;
+	text-align: center;
+	font-family: 'Oxygen', sans-serif;
+	font-size: 11pt;
+	line-height: 16pt;
+	color: #777;
+}
+.vimeo{
+	display: inline;
+	margin: 0 auto;
+	padding: 0 auto;
+	position: center;
+}
+#vimeo{
+	padding-left: 18%;
+}
+#vimeo iframe{
+	width: 640px;
+	height: 360px;
+}
+.row h1{
+	font-family: 'Oxygen', sans-serif;
+	font-size: 18pt;
+	color: #A53535;
+
+}
+.resumetitle {
+	position: relative;
+	margin: 0 auto;
+	margin-top:0px;
+	width: 100%;
+	z-index: 200;
+
+}
+.resumetitle h1{
+	font-family: 'Oxygen', sans-serif;
+	font-size: 24pt;
+	font-weight: 300;
+	text-align: left;
+	color: #fff;
+	margin-left: 80px;
+	margin-bottom: 5px;
+	padding: 0px 0px 0px 0px;
+	width: 100%;
+	border-bottom: solid 0px #ccc;
+}
+.resume-title-container{
+	background-color: #A53535;
+	padding: 20px 0px 20px 0px;
+}
+
+.resume-title-container2{
+	background-color: #A53535;
+	margin-top: 100px;
+	padding: 20px 0px 20px 0px;
+}
+.resume {
+	margin: 20px 0px 0px 0px;
+	padding: 20px;
+
+}
+.resume img{
+	padding-left: 20px
+}
+.resume h1{
+	margin: 0px 0px 0px 0px;
+	font-family: Georgia, serif;
+	font-size: 46pt;
+	color: #C54B47;
+	padding: 40px 0px 65px 40px;
+	border-left: solid 1px #666;
+}
+.resume h3{
+	margin: -60px 0px 0px 0px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	font-size: 18pt;
+	font-style: italic;
+	color: #444;
+	padding-left: 40px;
+	border-left: solid 1px #666;
+}
+.resumegroup{
+	border-top: 0px solid #A53535;
+}
+.resumeborder {
+	position: relative;
+	margin-left: 0px;
+	margin-right: 0px;
+	z-index: 200;
+	border-bottom: solid 1px #666;
+
+}
+.resumecontainer{
+	padding:0px 0px 0px 0px;
+}
+
+.resumeleftspan{
+	width: 360px;
+	margin: 40px 0px 0px 0px;
+}
+.resumeleftspan h1{
+	margin: 0px 0px 0px 0px;
+	font-family: 'Oxygen', sans-serif;
+	font-size: 20pt;
+	letter-spacing: 1pt;
+	text-align: center;
+	color: #fff;
+	background-color: #A53535;
+	padding: 10px 0px 10px 0px; 
+}
+.resumeleftspan h3{
+	margin: 40px 0px 0px 0px;
+	font-family: 'Oxygen', sans-serif;
+	font-size: 14pt;
+	text-align: center;
+	line-height: 1.25;
+	color: #444;
+	padding-bottom: 10px;
+}
+.resumeleftspan p{
+	margin: 0px 0px 0px 0px;
+	font-family: 'Oxygen', sans-serif;
+	font-size: 11pt;
+	text-align: center;
+	line-height: 1.25;
+	color: #444;
+	padding-bottom: 0px;
+}
+.resumerightspan{
+	width: 360px;
+	margin: 30px 0px 0px 100px;
+}
+.resumerightspan h1{
+	padding: 10px 0px 10px 0px;
+	font-family: 'Oxygen', sans-serif;
+	font-size: 20pt;
+	letter-spacing: 1pt;
+	text-align: center;
+	color: #fff;
+	background-color: #A53535;
+}
+.resumerightspan h3{
+	margin: 40px 0px 0px 0px;
+	font-family: 'Oxygen', sans-serif;
+	font-style: none;
+	font-size: 14pt;
+	text-align: left;
+	line-height: 1.25;
+	color: #444;
+	padding-left: 20px;
+}
+.resumerightspan h6{
+	margin: 0px 0px 0px 0px;
+	font-family: 'Oxygen', sans-serif;
+	font-size: 11pt;
+	font-style: italic;
+	text-align: left;
+	line-height: 1.25;
+	color: #666;
+	padding-left: 20px;
+}
+.resumerightspan p{
+	margin: 0px 0px 0px 0px;
+	font-family: 'Oxygen', sans-serif;
+	font-size: 11pt;
+	line-height: 1.25;
+	color: #444;
+	padding-left: 20px;
+}
+.resumelist {
+	margin: 0 auto;
+	padding-top: 10px;
+	padding-left: 40px;
+	list-style: none;
+}
+.resumelist li{
+	margin: 0px 0px 0px 0px;
+	font-family: 'Oxygen', sans-serif;
+	font-size: 11pt;
+	line-height: 1.25;
+	color: #999;
+	padding-left: 0px;
+}
+.resumeleftspan2{
+		width: 360px;
+		margin: -280px 0px 0px 0px;
+}
+.resumeleftspan2 h1{
+	font-family: 'Oxygen', sans-serif;
+	font-size: 20pt;
+	letter-spacing: 1pt;
+	text-align: center;
+	color: #fff;
+	background-color: #A53535;
+	padding: 10px 0px 10px 0px; 
+}
+.resumeleftspan2 h3{
+	margin: 20px 0px 0px 0px;
+	font-family: 'Oxygen', sans-serif;
+	font-size: 14pt;
+	text-align: center;
+	line-height: 1.25;
+	color: #444;
+	padding-top: 0px;
+}
+.resumeleftspan2 p{
+	margin: 0px 0px 0px 0px;
+	font-family: 'Oxygen', sans-serif;
+	font-size: 11pt;
+	text-align: center;
+	line-height: 1.25;
+	color: #444;
+	padding-top: 0px;
+}
+#contactContainer{
+	margin: 0 auto;
+}
+#contactContent{
+	margin: 0 auto;
+	padding: 3% 10% 5% 10%;
+
+}
+.contactsheet{
+	margin: 0 auto;
+}
+.contactsheet h1{
+	width: 66%;
+	padding: 3% 3% 3% 3%;
+	font-size: 36pt;
+	font-style: bold;
+	color: #fff;
+	text-transform: uppercase;
+	background-color: #222;
+}
+
+.contactsheet h2{
+	width: 80%;
+	padding: 1% 3% 1% 3%;
+	font-size: 18pt;
+	color:#fff;
+	background-color: #C449A1;
+}
+
+#formclass{
+	padding: 5% 3% 5% 3%;
+	width: 100%;
+	background-color: #222;
+}
+
+#formclass p label{
+	font-size: 14pt;
+	margin: 0 auto;
+	color: #fff;
+}
+
+#formclass input{ 
+	width: 25%;
+}
+
+#formclass textarea{ 
+	width: 50%;
+
+}
+
+#submitButton{
+	width:60%;
+}
+
+#submitButton input{
+	margin: 8% 0px 0px 8%;
+	color: #222;
+	border: 4px solid #222;
+	background-color: #C449A1;
+}
+
+#submitButton input:hover{
+	color: #EFE6E2;
+	border: 4px solid #C449A1;
+	background-color: #222;
+}
+#thankyou h1{
+	padding-bottom: 5%;
+	font-size: 36pt;
+	color:#fff;
+	text-transform: uppercase;
+	color:#C449A1;
+}
+
+#reply{
+	margin-bottom: 100px;
+}
+
+#reply p{
+	font-style: italic;
+	font-size: 18pt;
+	color: #222;
+}
+.footer{
+	float:bottom;
+	margin: 0 auto;
+	margin-top: 10%;
+	margin-bottom: 5%;
+	position: relative;
+	width:30%;
+	border-top: 1px solid #666;
+}
+.footer p{
+	font-size: 8pt;
+	text-align: center;
+	color: #666;
+	padding: 2%;
+}
+
+.modaltext h1{
+	margin: 0 auto;
+	margin-top: 10%;
+	margin-bottom: 4%;
+	padding: 20px 20px 80px 0px;
+	margin-left: 18%;
+	width: 50%;
+	font-family: 'Oxygen', sans-serif;
+	font-size: 24pt;
+	font-weight: lighter;
+	color: #444;
+	text-align: left;
+	background-color: #fff;
+	border-bottom: 1px solid #ddd;
+}
+
+.modaltext h2{
+	padding-left: 2%;
+	padding-top: 4px;
+	padding-bottom: 8px;
+	width: 40%;
+	font-family: 'Oxygen', sans-serif;
+	font-weight: lighter;
+	color: #444;
+	font-size: 18pt;
+	background-color: #ddd;
+	margin-left: 18%;
+	text-transform: capitalize;
+}
+
+.modaltext h3{
+	padding-left: 2%;
+	padding-bottom: 4px;
+	margin-left: 18%;
+	margin-top: 1%;
+	margin-bottom: 2%;
+	font-family: 'Oxygen', sans-serif;
+	font-weight: lighter;
+	color: #777;
+	font-size: 14pt;
+	background-color: #eee;
+	width: 40%;
+}
+
+.modaltext p{
+	margin-left: 18%;
+	padding-top: 4%;
+	margin-top: 2%;
+	width: 65%;
+	font-family: 'Oxygen', sans-serif;
+	font-size: 11pt;
+	line-height: 20pt;
+	color: #444;
+	border-top: 1pt solid #bbb;
+}
+
+.modaltext h4{
+	padding-top: 2%;
+	margin-bottom: 4%;
+	text-align: center;
+	font-style: italic;
+	font-size: 11pt;
+	font-weight: lighter;
+	color: #777;
+}
+.modal img{
+	padding-left: 18%;
+	margin-bottom: 6%;
+	width: 65%;
+}
+.modal-body{
+	max-height: 540px;
+}
+
+@media (max-width: 1024px) {
+		.navbar{
+			padding-top:0px;
+		}
+		.navbar .nav-collapse .nav.pull-right{
+			margin-left: 20px;
+		}
+		.navbar-fixed-top{
+			padding-top: 0px;
+			margin-top: 0px;
+			margin-bottom: 0px;
+		}
+		.resumecontainer{
+			margin-left: 80px;
+		}
+		.resumeleftspan2{
+			margin-left:80px;
+		}
+    	.resumerightspan{
+			width: 360px;
+			margin: 0px 0px 300px 0px;
+		}
+		.resumerightspan h1{
+			padding: 10px 0px 10px 0px;
+			font-family: 'Oxygen', sans-serif;
+			font-size: 20pt;
+			letter-spacing: 1pt;
+			text-align: center;
+			color: #fff;
+			background-color: #A53535;
+		}
+		.resumerightspan h3{
+			margin: 40px 0px 0px 0px;
+			font-family: 'Oxygen', sans-serif;
+			font-style: none;
+			font-size: 14pt;
+			text-align: left;
+			line-height: 1.25;
+			color: #444;
+			padding-left: 20px;
+		}
+		.resumerightspan h6{
+			margin: 0px 0px 0px 0px;
+			font-family: 'Oxygen', sans-serif;
+			font-size: 11pt;
+			font-style: italic;
+			text-align: left;
+			line-height: 1.25;
+			color: #666;
+			padding-left: 20px;
+		}
+		.resumerightspan p{
+			margin: 0px 0px 0px 0px;
+			font-family: 'Oxygen', sans-serif;
+			font-size: 11pt;
+			line-height: 1.25;
+			color: #444;
+			padding-left: 20px;
+		}
+		.hero-unit{
+			z-index: 1;
+			margin: 0 auto;
+			margin-top: 0px;
+			margin-bottom: 0px;
+			padding:0;
+			opacity: 1;
+		}
+		.carousel-inner{
+			margin: 0 auto;
+			margin-top: -10px;
+
+		}
+		.navbar .brand{
+			padding-top: 0px;
+			margin-left: 40px;
+			font-size: 14pt;
+			line-height: 20pt;
+		}
+
+		.nav .nav-bar{
+			display: block;
+		}
+		.container{
+
+			z-index: 10000000;
+		}
+		.modal{
+			width:60%;
+		}
+		.item01 h1{
+			font-size: 36pt;
+			position: absolute;
+			float: left;
+			padding: 2% 2% 2% 2%;
+			margin: 10% 0% 0% 11%;
+			z-index: 110;	
+			text-transform: uppercase;
+		}
+
+		.item01 p{
+			font-size: 14pt;
+			line-height: 24pt;
+			position: absolute;
+			float: left;
+			padding: 2% 2% 2% 2%;
+			margin: 15% 0% 0% 11%;
+			z-index: 111;
+		}
+		.item02 h1{
+			font-size: 36pt;
+			position: absolute;
+			float: left;
+			padding: 2% 2% 2% 2%;
+			margin: 10% 0% 0% 11%;
+			z-index: 110;	
+			text-transform: uppercase;
+			background-color:#222;
+		}
+
+		.item02 p{
+			font-size: 14pt;
+			line-height: 18pt;
+			position: absolute;
+			float: left;
+			padding: 1% 2% 1% 2%;
+			margin: 18% 0% 0% 11%;
+			width: inherit;
+			z-index: 111;
+			background-color:#222;
+		}
+		.item05{
+			margin-top:0px;
+		}
+
+		.item05 img{
+			margin: 0px 0px 0px 0px;
+			position: relative;
+			z-index: -1;
+		}
+		.item05 h1{
+			font-size: 36pt;
+			position: absolute;
+			float: left;
+			padding: 2% 2% 2% 2%;
+			margin: 10% 0% 0% 11%;
+			z-index: 110;	
+			text-transform: uppercase;
+			color: #fff;
+			background-color: #222;
+		}
+
+		.item05 p a{
+			font-family: 'Oxygen', sans-serif;
+			font-size: 14pt;
+			line-height: 18pt;
+			position: absolute;
+			float: left;
+			padding: 1% 2% 1% 2%;
+			margin: 18% 0% 0% 11%;
+			width: inherit;
+			z-index: 120;
+			color: #222;
+			background-color: #f2d820;
+			transition: .5s;
+		}
+
+		.item05 p a:hover{
+			background-color: #f29720;
+		}
+		.item03 h1{
+			font-size: 36pt;
+			position: absolute;
+			float: left;
+			padding: 2% 2% 2% 2%;
+			margin: 10% 0% 0% 11%;
+			z-index: 110;	
+			text-transform: uppercase;
+			background-color:#222;
+		}
+
+		.item03 p{
+			font-size: 14pt;
+			line-height: 18pt;
+			position: absolute;
+			float: left;
+			padding: 1% 2% 1% 2%;
+			margin: 18% 0% 0% 11%;
+			width: inherit;
+			z-index: 111;
+			background-color:#222;
+		}
+		.item04 h1{
+			font-size: 36pt;
+			position: absolute;
+			float: left;
+			padding: 2% 2% 2% 2%;
+			margin: 10% 0% 0% 11%;
+			z-index: 110;	
+			text-transform: uppercase;
+			background-color:#222;
+		}
+
+
+		.item04 p{
+			font-size: 14pt;
+			line-height: 18pt;
+			position: absolute;
+			float: left;
+			padding: 1% 2% 1% 2%;
+			margin: 18% 0% 0% 11%;
+			width: inherit;
+			z-index: 111;
+			background-color:#222;
+		}
+		.thumbnails{
+			margin: 0 auto;
+			width: 90%;
+		}
+		.thumbnail {
+			margin: 0px 0px 10% 0px;
+			padding: 10%;
+			line-height: 0;
+			background-color: #ddd;
+			transition: background-color 1.5s ease;
+		}
+
+		.thumbnail:hover{
+			margin: 0px 0px 10% 0px;
+			padding: 10%;
+			background-color: #aaa;
+		}
+
+		.thumbnail h3{
+			display: block;
+			font-family: 'Oxygen', sans-serif;
+			font-size: 14pt;
+			font-weight: 300;
+			line-height: 20pt;
+			text-align: center;
+			padding: 4%;
+			margin-bottom: 6%;
+			opacity: 1;
+			transform: rotate(0deg);
+		}
+
+		.thumbnail p{
+			padding-left: 2%;
+			padding-right: 2%;
+			text-align: center;
+			font-family: 'Oxygen', sans-serif;
+			font-size: 11pt;
+			line-height: 1.25;
+			color: #777;
+		}
+		#vimeo iframe{
+			width: 400px;
+			height: 225px;
+		}
+		.modal-body{
+			max-height: 400px;
+		}
+
+}
+
+@media (max-width: 767px) {
+		#contentFilter{
+			display: none;
+		}
+		.resume{
+			margin: 0 auto;
+			width: 100%;
+		}
+
+		.resume img{
+			margin-left: 15%;
+			width: 50%;
+		}
+
+		.resume h1,h3{
+			opacity: 0;
+		}
+		.resumeborder{
+			opacity: 0;
+		}
+		.resumecontainer{
+			margin-top: -150px;
+			margin-left: 10%;
+		}
+		.resumeleftspan2{
+			margin-left: 10%;
+		}
+    	.resumerightspan{
+			width: 360px;
+			margin: 0px 0px 300px 0px;
+		}
+		.resumerightspan h1{
+			padding: 10px 0px 10px 0px;
+			font-family: 'Oxygen', sans-serif;
+			font-size: 20pt;
+			letter-spacing: 1pt;
+			text-align: center;
+			color: #fff;
+			background-color: #A53535;
+		}
+		.resumerightspan h3{
+			margin: 40px 0px 0px 0px;
+			font-family: 'Oxygen', sans-serif;
+			font-style: none;
+			font-size: 14pt;
+			text-align: left;
+			line-height: 1.25;
+			color: #444;
+			padding-left: 20px;
+		}
+		.resumerightspan h6{
+			margin: 0px 0px 0px 0px;
+			font-family: 'Oxygen', sans-serif;
+			font-size: 11pt;
+			font-style: italic;
+			text-align: left;
+			line-height: 1.25;
+			color: #666;
+			padding-left: 20px;
+		}
+		.resumerightspan p{
+			margin: 0px 0px 0px 0px;
+			font-family: 'Oxygen', sans-serif;
+			font-size: 11pt;
+			line-height: 1.25;
+			color: #444;
+			padding-left: 20px;
+		}
+		.hero-unit{
+			display: none;
+		}
+		.container{
+			margin-top:20px;
+		}
+		.thumbnails{
+			margin-top: 0px;
+		}
+		.modal{
+			width:100%;
+		}
+		.resumerightspan h3{
+			opacity: 1;
+		}
+		.resumeleftspan h3{
+			opacity: 1;
+		}
+		.resumeleftspan2 h3{
+			opacity: 1;
+		}
+		.modaltext h1{
+			opacity: 1;
+		}
+		.span4 h3{
+			opacity: 1;
+		}
+		.modal-body{
+			margin: 0 auto;
+			max-height:400px;
+			padding: 0px;
+			width: 100%;
+		}
+		.modaltext{
+			margin: 0 auto;
+			padding: 0px;
+			width: 100%;
+		}
+		.modal{
+			margin: 0 auto;
+			padding: 0px;
+			width: 90%;
+		}
+		.modaltext img{
+			width: 100%;
+		}
+		#contactContainer{
+			margin: 0 auto;
+		}
+		#contactContent{
+			margin: 0 auto;
+		}
+		.contactsheet{
+			margin: 0 auto;
+			width: 100%;
+		}
+		#formclass{
+			margin: 0 auto;
+			padding: 5% 4% 5% 4%;
+			width: 90%;
+			background-color: #222;
+		}
+		#formclass p{
+			text-align: center;
+		}
+		#formclass input{ 
+			margin: 0 auto;
+			width: 80%;
+		}	
+		#formclass textarea{ 
+			margin: 0 auto;
+			width: 80%;
+		}
+		#submitButton{
+			margin: 0 auto;
+			width: 80%;
+			text-align: center;
+		}
+		.contactsheet h1{
+			margin: 0 auto;
+			width: 90%;
+			padding: 4%;
+			font-size: 24pt;
+			text-align: center;
+		}
+		.contactsheet h2{
+			margin: 0 auto;
+			width: 90%;
+			padding: 2% 4% 2% 4%;
+			font-size: 18pt;
+			text-align: center;
+		}
+		.footer{
+			float:bottom;
+			margin: 0 auto;
+			margin-top: 10%;
+			margin-bottom: 5%;
+			position: relative;
+			width:80%;
+			border-top: 1px solid #666;
+		}
+		.footer p{
+			font-size: 8pt;
+			text-align: center;
+			color: #666;
+			padding: 2%;
+		}
+		.contactContainer{
+			margin: 0 auto;
+			display: block;
+		}
+		#thankyou h1{
+			padding-bottom: 2%;
+			font-size: 24pt;
+			color:#fff;
+			text-transform: uppercase;
+			color:#C449A1;
+		}
+		#reply{
+			margin-bottom: 20%;
+		}
+		#reply p{
+			padding: 2%;
+			line-height: 20pt;
+			font-style: italic;
+			font-size: 18pt;
+			color: #222;
+		}
+		.thumbnails{
+			margin: 0 auto;
+			width: 90%;
+		}
+		.thumbnail {
+			margin: 0px 0px 10% 0px;
+			padding: 10%;
+			line-height: 0;
+			background-color: #ddd;
+			transition: background-color 1.5s ease;
+		}
+
+		.thumbnail:hover{
+			margin: 0px 0px 10% 0px;
+			padding: 10%;
+			background-color: #aaa;
+		}
+
+		.thumbnail h3{
+			display: block;
+			font-family: 'Oxygen', sans-serif;
+			font-size: 14pt;
+			font-weight: 300;
+			line-height: 20pt;
+			text-align: center;
+			padding: 4%;
+			margin-bottom: 6%;
+			opacity: 1;
+			transform: rotate(0deg);
+		}
+
+		.thumbnail p{
+			padding-left: 2%;
+			padding-right: 2%;
+			text-align: center;
+			font-family: 'Oxygen', sans-serif;
+			font-size: 11pt;
+			line-height: 1.25;
+			color: #777;
+		}
+		.modaltext h1{
+			margin: 0 auto;
+			margin-top: 10%;
+			margin-bottom: 4%;
+			padding: 20px 20px 80px 0px;
+			margin-left: 10%;
+			width: 80%;
+			font-family: 'Oxygen', sans-serif;
+			font-size: 24pt;
+			font-weight: lighter;
+			color: #444;
+			text-align: left;
+			background-color: #fff;
+			border-bottom: 1px solid #ddd;
+		}
+
+		.modaltext h2{
+			padding-left: 2%;
+			padding-top: 4px;
+			padding-bottom: 8px;
+			width: 80%;
+			font-family: 'Oxygen', sans-serif;
+			font-weight: lighter;
+			color: #444;
+			font-size: 18pt;
+			background-color: #ddd;
+			margin-left: 10%;
+			text-transform: capitalize;
+		}
+
+		.modaltext h3{
+			padding-left: 2%;
+			padding-bottom: 4px;
+			margin-left: 10%;
+			margin-top: 1%;
+			margin-bottom: 2%;
+			font-family: 'Oxygen', sans-serif;
+			font-weight: lighter;
+			color: #777;
+			font-size: 14pt;
+			background-color: #eee;
+			width: 40%;
+		}
+
+		.modaltext p{
+			margin-left: 10%;
+			padding-top: 4%;
+			margin-top: 2%;
+			width: 65%;
+			font-family: 'Oxygen', sans-serif;
+			font-size: 11pt;
+			line-height: 20pt;
+			color: #444;
+			border-top: 1pt solid #bbb;
+		}
+
+		.modaltext h4{
+			padding-top: 2%;
+			margin-bottom: 4%;
+			text-align: center;
+			font-style: italic;
+			font-size: 11pt;
+			font-weight: lighter;
+			color: #777;
+		}
+		.modal img{
+			padding: 0% 10% 0% 10%;
+			margin-bottom: 0%;
+			width: 80%;
+		}
+}
+
+@media (max-width: 468px) {
+		.resume{
+			margin: 0 auto;
+			width: 100%;
+		}
+
+		.resume img{
+			margin-left: 15%;
+			width: 50%;
+		}
+
+		.resume h1,h3{
+			opacity: 0;
+		}
+		.resumeborder{
+			opacity: 0;
+		}
+		.resumecontainer{
+			margin-top: -150px;
+			margin-left: 0%;
+		}
+		.resumeleftspan2{
+			margin-left: 0px;
+		}
+    	.resumerightspan{
+			width: 360px;
+			margin: 0px 0px 300px 0px;
+		}
+		.resumerightspan h1{
+			padding: 10px 0px 10px 0px;
+			font-family: 'Oxygen', sans-serif;
+			font-size: 20pt;
+			letter-spacing: 1pt;
+			text-align: center;
+			color: #fff;
+			background-color: #A53535;
+		}
+		.resumerightspan h3{
+			margin: 40px 0px 0px 0px;
+			font-family: 'Oxygen', sans-serif;
+			font-style: none;
+			font-size: 14pt;
+			text-align: left;
+			line-height: 1.25;
+			color: #444;
+			padding-left: 20px;
+		}
+		.resumerightspan h6{
+			margin: 0px 0px 0px 0px;
+			font-family: 'Oxygen', sans-serif;
+			font-size: 11pt;
+			font-style: italic;
+			text-align: left;
+			line-height: 1.25;
+			color: #666;
+			padding-left: 20px;
+		}
+		.resumerightspan p{
+			margin: 0px 0px 0px 0px;
+			font-family: 'Oxygen', sans-serif;
+			font-size: 11pt;
+			line-height: 1.25;
+			color: #444;
+			padding-left: 20px;
+		}
+		.container{
+			margin-top:20px;
+		}
+		.thumbnails{
+			margin-top: 0px;
+		}
+		.modal{
+			width:100%;
+		}
+		.resumerightspan h3{
+			opacity: 1;
+		}
+		.resumeleftspan h3{
+			opacity: 1;
+		}
+		.resumeleftspan2 h3{
+			opacity: 1;
+		}
+		.modaltext h1{
+			opacity: 1;
+		}
+		.span4 h3{
+			opacity: 1;
+		}
+		#vimeo{
+			padding: 0;
+		}
+		#vimeo iframe{
+			width: 400px;
+			height: 225px;
+		}
+		.modal-body{
+			max-height: 360px;
+		}
+}
+/*-- This is where I'll place my Hovers for resume...Begin--*/
+
+.resumeleftspan p:hover{
+	color: #C54B47;
+	background-color: #EDE4CC;
+}
+
+.resumerightspan h3:hover{
+	color: #C54B47;
+	background-color: #EDE4CC;
+}
+
+.resumeleftspan2 h3:hover{
+	color: #C54B47;
+	background-color: #EDE4CC;
+}
+
+/*-- End--*/
+
+.modal video{
+	padding-left: 18%;
+	width: 65%;
+}
+
+
